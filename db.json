@@ -1,0 +1,53 @@
+{
+  "allPizza": [
+    {
+      "id": 1,
+      "title": "Чизбургер-пицца",
+      "price": "от 395 ₽",
+      "imageUrl": "/images/pizza1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Сырная",
+      "price": "от 450 ₽",
+      "imageUrl": "/images/pizza2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Креветки по-азиатски",
+      "price": "от 290 ₽",
+      "imageUrl": "/images/pizza3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Сырный цыпленок",
+      "price": "от 385 ₽",
+      "imageUrl": "/images/pizza4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Чизбургер-пицца",
+      "price": "от 395 ₽",
+      "imageUrl": "/images/pizza5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Сырная",
+      "price": "от 450 ₽",
+      "imageUrl": "/images/pizza6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Креветки по-азиатски",
+      "price": "от 290 ₽",
+      "imageUrl": "/images/pizza7.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Сырный цыпленок",
+      "price": "от 385 ₽",
+      "imageUrl": "/images/pizza8.jpg"
+    }
+  ]
+  
+}

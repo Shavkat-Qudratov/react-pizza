@@ -1,0 +1,333 @@
+.pHeader {
+    height: 950px;
+    background-color: #fff;
+}
+
+.headerLeft {
+    position: absolute;
+    width: 316px;
+    height: 48px;
+    left: 32px;
+    top: 92px;
+}
+
+.pizzaIcon {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 77px;
+    top: 14px;
+}
+
+.text1 {
+    position: absolute;
+
+    left: 130px;
+    top: 0px;
+
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 5px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+
+    color: #181818;
+}
+
+.text2 {
+    position: absolute;
+    width: 261px;
+    height: 19px;
+    left: 130px;
+    top: 20px;
+
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #7B7B7B;
+
+}
+
+.basketIcon {
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    left: 330px;
+    top: 278px;
+}
+
+.basketText {
+    position: absolute;
+    width: 130px;
+    height: 39px;
+    left: 376px;
+    top: 245px;
+
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.deleteIcon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1008px;
+    top: 288px;
+}
+
+.deleteText {
+    position: absolute;
+    width: 142px;
+    height: 21px;
+    left: 1035px;
+    top: 275px;
+
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #B6B6B6;
+}
+
+.line {
+    position: absolute;
+    width: 820px;
+    height: 1px;
+    left: 351px;
+    top: 344px;
+
+    background: #F4F4F4;
+}
+
+.group1 {
+    position: absolute;
+    width: 821px;
+    height: 80px;
+    left: 10px;
+    top: 30px;
+}
+
+.CheckPizzaImg {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 330px;
+    top: 375px;
+
+}
+
+.checkPizzaName {
+    position: absolute;
+    width: 280px;
+    height: 27px;
+    left: 420px;
+    top: 369px;
+
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.checkPizzaTitle {
+    position: absolute;
+    width: 280px;
+    height: 22px;
+    left: 420px;
+    top: 399px;
+
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    letter-spacing: 0.01em;
+
+    color: #8D8D8D;
+}
+
+.checkbtn {
+    box-sizing: border-box;
+    border-radius: 50%;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+
+    background: #FFFFFF;
+    color: #FE5F1E;
+    border: 2px solid #FE5F1E;
+}
+
+.btnInc {
+    left: 793px;
+    top: 399px;
+}
+
+.btnDec {
+    left: 863px;
+    top: 399px;
+}
+
+.checkText {
+    position: absolute;
+    width: 14px;
+    height: 27px;
+    left: 837px;
+    top: 402px;
+
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.checkPrice {
+    position: absolute;
+    width: 58px;
+    height: 27px;
+    left: 988px;
+    top: 382px;
+
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+    letter-spacing: 0.01em;
+
+    color: #000000;
+
+}
+
+.checkXBtn {
+    position: absolute;
+    border: 2px solid #D7D7D7;
+    color: #D7D7D7;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    left: 1139px;
+    top: 399px;
+}
+
+.group2 {
+    position: absolute;
+    width: 821px;
+    height: 80px;
+    left: 10px;
+    top: 166px;
+}
+
+.group3 {
+    position: absolute;
+    width: 821px;
+    height: 80px;
+    left: 10px;
+    top: 312px;
+}
+
+.checkAll {
+    position: absolute;
+    width: 179px;
+    height: 27px;
+    left: 351px;
+    top: 777px;
+
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+
+
+}
+
+.sht {
+    letter-spacing: 0.01em;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.checkAllPrice {
+    position: absolute;
+    width: 215px;
+    height: 27px;
+    left: 956px;
+    top: 777px;
+
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.allsht {
+    letter-spacing: 0.01em;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FE5F1E;
+}
+
+.btnFooter {
+
+    position: absolute;
+    width: 211px;
+    height: 55px;
+    left: 960px;
+    top: 854px;
+
+    border: none;
+    background: #FE5F1E;
+    border-radius: 30px;
+
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}

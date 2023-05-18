@@ -16,7 +16,7 @@ export const Navbar = () => {
 
             <div className='right'>
                 <label for="category">Сортировка по:</label>
-                <select name="pizza">
+                <select className='category' name="pizza">
                     <option value="volvo">популярности</option>
                     <option value="saab">по цене</option>
                     <option value="opel">по алфавиту</option>
