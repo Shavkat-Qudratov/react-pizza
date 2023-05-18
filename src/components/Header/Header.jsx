@@ -10,7 +10,7 @@ export const Header = () => {
             <div className='headerLeft'>
                 <img
                     className='pizzaIcon'
-                    src="/assets/images/pizzaicon.jpg"
+                    src="/images/pizzaicon.jpg"
                     alt="pizza img" />
                 <p className='text1'>REACT PIZZA</p>
                 <p className='text2'>самая вкусная пицца во вселенной</p>
