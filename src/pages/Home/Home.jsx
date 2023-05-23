@@ -1,4 +1,4 @@
-import React, { useEffect }  from 'react'
+import React, { useEffect } from 'react'
 import { fetchItems } from '../../redux/thunk'
 
 import { Wrapper } from '../../components/Wrapper'
@@ -22,20 +22,17 @@ const Home = () => {
 
   return (
     <div className='homeContainer'>
-      
+
       <Wrapper>
         <Header />
         <Navbar />
         <CardContainer items={allPizza} />
-      </Wrapper>
+      </Wrapper> 
 
-      {/* <Wrapper>
-        <NoPurchased />
-      </Wrapper> */}
+        {/* <NoPurchased /> */}
 
-      {/* <Wrapper>
-        <Purchased />
-      </Wrapper> */}
+        {/* <Purchased /> */}
+
     </div>
   )
 }

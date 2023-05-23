@@ -1,6 +1,9 @@
 .pHeader {
-    height: 950px;
+    width: 1290px;
+    height: 980px;
     background-color: #fff;
+    border: 30px solid #FFDF8C;
+
 }
 
 .headerLeft {
@@ -330,4 +333,31 @@
 
     color: #FFFFFF;
 
+}
+
+.LeftFooterBtn {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 211px;
+    height: 55px;
+    left: 351px;
+    top: 854px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    background: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    border-radius: 30px;
+
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #CACACA;
 }

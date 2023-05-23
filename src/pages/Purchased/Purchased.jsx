@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { GrFormPrevious, GrFormPreviousLink,FcPrevious } from 'react-icons/fc'
 import './Purchased.css'
 
 const Purchased = () => {
@@ -48,7 +48,7 @@ const Purchased = () => {
         <button className='checkbtn btnDec'>+</button>
 
         <p className='checkPrice'>290 ₽ </p>
-        
+
         <button className='checkXBtn'>x</button>
       </div>
 
@@ -62,7 +62,7 @@ const Purchased = () => {
         <button className='checkbtn btnDec'>+</button>
 
         <p className='checkPrice'>350 ₽  </p>
-        
+
         <button className='checkXBtn'>x</button>
       </div>
 
@@ -71,7 +71,12 @@ const Purchased = () => {
 
         <p className='checkAllPrice'>Сумма заказа:<span className='allsht'>  900 ₽ </span></p>
 
-<button className='btnFooter'>Оплатить сейчас</button>
+        <div className='LeftFooterBtn'>
+          <img  src="/images/prevIcon.jpg" alt="" />
+          <span>   Вернуться назад</span>
+        </div>
+
+        <button className='btnFooter'>Оплатить сейчас</button>
       </div>
     </div>
 
