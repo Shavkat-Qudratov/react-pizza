@@ -1,18 +1,22 @@
 import React from 'react'
 
 import './NoPurchased.css'
+import { Link } from 'react-router-dom'
 
 const NoPurchased = () => {
   return (
     <div className='noHeader'>
 
       <div className='headerLeft'>
-        <img
-          className='pizzaIcon'
-          src="/images/pizzaicon.jpg"
-          alt="pizza img" />
-        <p className='text1'>REACT PIZZA</p>
-        <p className='text2'>Самая реактивная пицца</p>
+        <Link to='/'>
+          <img
+            className='pizzaIcon'
+            src="/images/pizzaicon.jpg"
+            alt="pizza img" />
+          <p className='text1'>REACT PIZZA</p>
+          <p className='text2'>Самая реактивная пицца</p>
+        </Link>
+
       </div>
 
       <div>
@@ -22,9 +26,9 @@ const NoPurchased = () => {
       <p className='korzinatext1'>Вероятней всего, вы не заказывали ещё пиццу.
         Для того, чтобы заказать пиццу, перейди на главную страницу.</p>
 
-        <img className='korzinaimg' src="/images/vector.jpg" alt="" />
+      <img className='korzinaimg' src="/images/vector.jpg" alt="" />
 
-        <button className='korzinaBtn'>Вернуться назад</button>
+      <button className='korzinaBtn'>Вернуться назад</button>
 
     </div>
   )

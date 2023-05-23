@@ -10,6 +10,8 @@
     height: 48px;
     left: 32px;
     top: 92px;
+
+    cursor: pointer;
 }
 
 .pizzaIcon {

@@ -4,4 +4,4 @@ import pizzaReducer from './pizzaReducer';
 
 // store 1. reducer, 2. state
 export const store = createStore(pizzaReducer, applyMiddleware(thunk));
-// console.log(store.getState());
+// console.log(store.getState());b   
