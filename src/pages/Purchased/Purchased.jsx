@@ -1,17 +1,21 @@
 import React from 'react'
 import { GrFormPrevious, GrFormPreviousLink,FcPrevious } from 'react-icons/fc'
 import './Purchased.css'
+import { Link } from 'react-router-dom'
 
 const Purchased = () => {
   return (
     <div className='pHeader'>
       <div className='headerLeft'>
+        <Link to='/'>
+       
         <img
           className='pizzaIcon'
           src="/images/pizzaicon.jpg"
           alt="pizza img" />
         <p className='text1'>REACT PIZZA</p>
         <p className='text2'>Самая реактивная пицца</p>
+        </Link>
       </div>
 
       <div>
