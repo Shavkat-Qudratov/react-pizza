@@ -1,3 +1,9 @@
+.noHeader{
+    width: 1290px;
+    height: 980px;
+    background-color: #fff;
+    border: 30px solid #FFDF8C;
+}
 .pusta {
     position: absolute;
     width: 241px;

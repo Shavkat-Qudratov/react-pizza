@@ -4,7 +4,7 @@ import './NoPurchased.css'
 
 const NoPurchased = () => {
   return (
-    <div>
+    <div className='noHeader'>
 
       <div className='headerLeft'>
         <img
