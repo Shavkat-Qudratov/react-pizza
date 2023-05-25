@@ -1,9 +1,10 @@
-.noHeader{
+.noHeader {
     width: 1290px;
     height: 980px;
     background-color: #fff;
     border: 30px solid #FFDF8C;
 }
+
 .pusta {
     position: absolute;
     width: 241px;
@@ -16,7 +17,6 @@
     font-weight: 700;
     font-size: 32px;
     line-height: 39px;
-    /* identical to box height */
 
     letter-spacing: 0.01em;
 
@@ -43,7 +43,6 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 145.4%;
-    /* or 26px */
 
     text-align: center;
     letter-spacing: 0.01em;
@@ -59,7 +58,7 @@
 }
 
 .korzinaBtn {
-
+    cursor: pointer;
     position: absolute;
     width: 210px;
     height: 46px;

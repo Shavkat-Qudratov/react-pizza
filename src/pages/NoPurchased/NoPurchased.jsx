@@ -28,7 +28,7 @@ const NoPurchased = () => {
 
       <img className='korzinaimg' src="/images/vector.jpg" alt="" />
 
-      <button className='korzinaBtn'>Вернуться назад</button>
+      <Link to='/'> <button className='korzinaBtn'>Вернуться назад</button></Link>
 
     </div>
   )

@@ -1,5 +1,4 @@
 import React from 'react'
-import { GrFormPrevious, GrFormPreviousLink,FcPrevious } from 'react-icons/fc'
 import './Purchased.css'
 import { Link } from 'react-router-dom'
 
@@ -74,12 +73,12 @@ const Purchased = () => {
         <p className='checkAll'>Всего пицц: <span className='sht'> 3 шт.</span></p>
 
         <p className='checkAllPrice'>Сумма заказа:<span className='allsht'>  900 ₽ </span></p>
-
+        <Link to='/'>
         <div className='LeftFooterBtn'>
           <img  src="/images/prevIcon.jpg" alt="" />
-          <span>   Вернуться назад</span>
+         <span>   Вернуться назад</span>
         </div>
-
+        </Link> 
         <button className='btnFooter'>Оплатить сейчас</button>
       </div>
     </div>
