@@ -6,8 +6,6 @@ import { Header } from '../../components/Header'
 import { Navbar } from '../../components/Navbar'
 import { CardContainer } from '../../components/CardContainer/CardContainer'
 import { useDispatch, useSelector } from 'react-redux'
-import NoPurchased from '../NoPurchased/NoPurchased'
-import Purchased from '../Purchased/Purchased'
 
 import './Home.css'
 const Home = () => {

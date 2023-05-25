@@ -1,5 +1,4 @@
 .header {
-    /* background-color: red; */
     width: 95%;
     height: 100px;
 }
@@ -24,8 +23,6 @@
 
 .text1 {
     position: absolute;
-    /* width: 154px;
-    height: 9px; */
     left: 130px;
     top: 0px;
 
@@ -51,7 +48,6 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    /* line-height: 19px; */
 
     color: #7B7B7B;
 
@@ -81,8 +77,6 @@
     font-size: 16px;
     line-height: 19px;
 
-    
-
     color: #FFFFFF;
 
 }
@@ -94,7 +88,6 @@
     left: 76px;
     top: 10px;
 
-    /* background: rgba(255, 255, 255, 0.25); */
 }
 
 .text4 {
@@ -108,5 +101,4 @@
 
     cursor: pointer;
 
-    /* border: 1.8px solid #FFFFFF; */
 }

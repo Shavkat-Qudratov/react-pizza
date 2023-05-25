@@ -1,8 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import './Navbar.css';
 
 export const Navbar = () => {
+    const [active, setActive] = useState(false);
+    const [title, setTitle] = useState("популярности");
+    const dataList = [
+        { id: 1, title: "популярности" },
+        { id: 2, title: "по цене" },
+        { id: 3, title: "по алфавиту" }
+    ];
+    const choose = (data) => {
+        setTitle(data);
+        setActive(!active);
+    };
+
     return (
         <div className='Navbar'>
             <div className='left'>
@@ -13,15 +25,23 @@ export const Navbar = () => {
                 <button className='btn btn5'>Острые</button>
                 <button className='btn btn6'>Закрытые</button>
             </div>
+            <div  className='right'>
 
-            <div className='right'>
-                <label for="category">Сортировка по:</label>
-                <select className='category' name="pizza">
-                    <option value="volvo">популярности</option>
-                    <option value="saab">по цене</option>
-                    <option value="opel">по алфавиту</option>
-                </select>
+                <div onClick={() => setActive(!active)} className="select">
+
+                    Сортировка по: <span>{title}</span>
+                </div>
+                <ul className={active ? "options" : "hide"}>
+                    {dataList.map((item) => {
+                        return (
+                            <li key={item.id} onClick={() => choose(item.title)}>
+                                {item.title}
+                            </li>
+                        );
+                    })}
+                </ul>
             </div>
+
         </div>
     )
 }
