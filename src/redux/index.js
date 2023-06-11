@@ -1,7 +1,7 @@
-import { applyMiddleware, createStore } from 'redux';
-import thunk from 'redux-thunk';
-import pizzaReducer from './pizzaReducer';
+import { createStore } from "redux";
+import reducer from "./reducer";
 
-// store 1. reducer, 2. state
-export const store = createStore(pizzaReducer, applyMiddleware(thunk));
-// console.log(store.getState());b   
+import { applyMiddleware } from "redux";
+import thunk from "redux-thunk";
+
+export  const store = createStore(reducer, applyMiddleware(thunk));

@@ -1,146 +1,149 @@
-.Card {
-    width: 280px;
-    height: 459px;
-    padding:10px;
-    
-
-    display: flex;
-    flex-direction: column;
+.imgCont img {
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.4s;
 }
 
-.pizzaImg {
-    width: 259px;
-    height: 260px;
-    object-fit: cover;
-}
-.pizzaImg img{
-   margin-left: 5px;
+.imgCont img:hover {
+  transform: scale(1.07);
 }
 
-.pizzaName {
-    text-transform: capitalize;
-    margin: 8px auto;
-    height: 30px;
+.cardContainer{
 
-    font-family: 'Proxima Nova';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
+  text-align: center;
+  width: 280px;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  pointer-events: auto;
 }
 
-.pizzaType {
-    width: 280px;
-    height: 85px;
-    margin: 10px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    border-radius: 10px;
+.cardTitle {
+  text-transform: capitalize;
+  margin: 8px auto;
 
-    background: #F3F3F3;
+  height: 60px;
+  font-weight: 700;
+  font-size: 20px;
 }
 
-
-
-.pizzaTop {
-    display: flex;
-    justify-content: space-evenly;
-
+.sectionPizza {
+  width: 280px;
+  height: 85px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 3px;
+  background-color: #e5e5e5;
 }
 
-.pizzaTop button {
-    display: flex;
-    width: 131px;
-    height: 28px;
+.sectionPizzaTop {
+  margin-top: 20px;
 
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
-    border-radius: 5px;
-    background: #FFFFFF;
-    border: none;
-
-    justify-content: center;
-    align-items: center;
-    font-weight: 600;
-    cursor: pointer;
-
-    font-size: 14px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.pizzaBottom {
-    display: flex;
-    justify-content: space-evenly;
+.sectionPizzaTop p {
+  margin: 0;
+  display: flex;
+  width: 48%;
+  border-radius: 5px;
+  height: 28px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  cursor: pointer;
+
+  font-size: 14px;
+  transition: 0.2s;
 }
 
-.pizzaBottom button {
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 31%;
-    border-radius: 5px;
-    height: 28px;
-    font-weight: 600;
-    font-size: 14px;
-    border: none;
+.section-pitsa-bottom {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3px 0;
 }
 
-.pizzaBtn {
-    background: #ffffff;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
-    border-radius: 5px;
+.section-pitsa-bottom p {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 31%;
+  border-radius: 5px;
+  height: 28px;
+  font-weight: 600;
+  font-size: 14px;
+  transition: 0.2s;
 }
 
-.cardFooter {
-    display: flex;
-    justify-content: space-between;
-    margin-top: auto;
-    width: 100%;
-    height: 60px;
+.card-current-section {
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgb(154, 154, 154);
+  border-radius: 5px;
 }
 
-.pizzaPrice {
-    font-weight: 700;
-    font-size: 22px;
-    height: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  width: 100%;
+  height: 60px;
 }
 
-.btnAdd {
-    width: 155px;
-    height: 40px;
-
-    background: #FFFFFF;
-    border: 1px solid #EB5A1E;
-    border-radius: 30px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    font-family: 'Proxima Nova';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-
-    color: #EB5A1E;
-    cursor: pointer;
-    transition: 0.3s;
+.card-price {
+  font-weight: 700;
+  font-size: 18px;
+  height: 40px;
+  display: flex;
+  align-items: center;
 }
 
-.btnAdd:hover {
-    background-color: #EB5A1E;
-    color: #fff;
+.addButton {
+  margin-top: 20px;
+  width: 160px;
+  border: 1px solid #eb5a1e;
+  height: 40px;
+  font-size: 17px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eb5a1e;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
-.btnPlus {
-    color: #EB5A1E;
+.addButton:hover {
+  background-color: #eb5a1e;
+  color: #fff;
 }
 
-.btnPlus:hover {
-    transition: 1s;
-    background-color: #EB5A1E;
-    color: #EB5A1E;
+.addButton p {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #eb5a1e;
+  color: #fff;
+  display: flex;
+  margin-left: 5px;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.addButton:hover p {
+  background-color: #fff;
+  color: #eb5a1e;
+}
+
+.disabled-btn-order {
+  pointer-events: none;
 }

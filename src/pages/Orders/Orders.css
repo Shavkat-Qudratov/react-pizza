@@ -1,0 +1,131 @@
+.orders-wrapper {
+  padding: 10rem;
+}
+.orders-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.orders-header-left {
+  display: flex;
+}
+.orders-header-left p {
+  margin: 0 7px;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.orders-header-right {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.orders-header-right p {
+  margin: 0 4px;
+  color: #b6b6b6;
+}
+.orders-main {
+  width: 100%;
+  max-height: 345px;
+  overflow-y: auto;
+  border-radius: 5px;
+}
+
+.orders-footer {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  height: 130px;
+}
+.orders-footer-left {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+.orders-footer-left p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.orders-footer-left p span {
+  font-weight: 700;
+}
+.return-home a {
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  border: 1px solid #d3d3d3;
+  border-radius: 30px;
+  margin: 10px 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #747474;
+  text-decoration: none;
+  transition: 0.4s;
+  font-size: 16px;
+}
+.return-home a:hover {
+  background-color: #8f8de2;
+  color: #fff;
+}
+.order-arrow {
+  transition: 0.4s;
+  color: #747474;
+}
+.return-home a:hover .order-arrow {
+  transform: translateX(-10px);
+  color: #fff;
+}
+
+.orders-footer-right {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.orders-footer-right p {
+  font-size: 20px;
+}
+.orders-footer-right p span {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fe5f1e;
+}
+.pay-btn a {
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  border: 1px solid #d3d3d3;
+  border-radius: 30px;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  margin: 10px 0;
+  background-color: #fe5f1e;
+  text-decoration: none;
+}
+.empty-order {
+  display: flex;
+  justify-content: center;
+}
+.empty-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 560px;
+  height: 330px;
+}
+.empty-wrapper p {
+  font-size: 18px;
+  font-weight: 400;
+}

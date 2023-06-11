@@ -1,0 +1,147 @@
+.payment-header {
+  width: 1100px;
+  height: 500px;
+  background-color: #fff;
+  margin: 50px auto;
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment-page {
+  width: 531px;
+  height: 400px;
+  min-height: 100vh;
+  position: absolute;
+
+}
+.GoHome{
+  position: absolute;
+  top: 340px;
+  left: -400px;
+
+
+}
+.payment-page form {
+  position: absolute;
+  width: 365px;
+  height: 40px;
+  left: 76px;
+  top: 77px;
+
+  background: #EAE0C6;
+  border-radius: 6px;
+
+  min-height: 450px;
+  box-shadow: 0 0 10px #a4a4a4;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+.payment-page form div {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.pay-btn-check {
+  position: absolute;
+  top: 330px;
+  width: 160px;
+  
+  background-color: #EB5A1E;
+  height: 30px;
+  font-size: large;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.all-price-check {
+  margin-top: 20px;
+}
+
+
+.nameInput {
+  position: absolute;
+  width: 265px;
+  height: 40px;
+  left: 50px;
+  top: 127px;
+  color: #fff;
+
+  background: #EB5A1E;
+  border-radius: 6px;
+}
+
+.numberInput {
+  position: absolute;
+  width: 265px;
+  height: 40px;
+  left: 50px;
+  top: 210px;
+  color: #fff;
+
+  background: #EB5A1E;
+  border-radius: 6px;
+}
+
+.cardData {
+  position: absolute;
+  width: 158px;
+  height: 40px;
+  left: 50px;
+  top: 295px;
+  color: #fff;
+  background: #EB5A1E;
+  border-radius: 6px;
+}
+
+.cardCvv {
+  position: absolute;
+  width: 100px;
+  height: 38px;
+  left: 217px;
+  top: 295px;
+  color: #fff;
+  background: #EB5A1E;
+  border-radius: 6px;
+}
+
+.p1 {
+  position: absolute;
+  left: 60px;
+  top: 87px;
+  color: #FEFCFC;
+}
+
+.p2 {
+  position: absolute;
+  left: 60px;
+  top: 177px;
+  color: #FEFCFC;
+}
+
+.p3 {
+  position: absolute;
+  left: 60px;
+  top: 257px;
+  color: #FEFCFC;
+}
+
+.p4 {
+  position: absolute;
+  left: 220px;
+  top: 257px;
+  color: #FEFCFC;
+}

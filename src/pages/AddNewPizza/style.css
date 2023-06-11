@@ -1,0 +1,77 @@
+.add-sneaker-page {
+  position: absolute;
+  background-size: cover;
+  top: 0;
+  right: 0;
+
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('https://i.pinimg.com/474x/f0/b2/13/f0b213572c5c0c57ae1752ce0b66f412.jpg');
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.add-sneaker-page form {
+ 
+  width: 400px;
+  max-height: 600px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #a9a9a9;
+
+  padding: 1rem 2rem;
+
+  position: absolute;
+  right:40px;
+}
+
+.add-sneaker-page form p {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+
+
+.add-pizza-btn {
+  width: 70%;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(37, 131, 255);
+  font-size: large;
+  color: #fff;
+  margin-top: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-sneaker-page form div {
+  margin-top: 10px;
+}
+
+.add-sneaker-page form div label {
+  font-size: 14px;
+}
+
+.add-sneaker-page form div input {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #232323;
+  padding: 0 10px;
+  margin-left: 10px;
+  background-color: #d6d6d6;
+}
+
+.disabled-btn-add {
+  pointer-events: none;
+}

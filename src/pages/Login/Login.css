@@ -1,0 +1,22 @@
+.login-wrapper {
+  width: 400px;
+  border-radius: 15px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+}
+.bottom-msg {
+  font-size: larger;
+}
+.bottom-msg:hover {
+  color: rgb(84, 84, 84);
+}
+.form-div div {
+  display: flex;
+  align-items: center;
+}
+.form-div {
+  width: 100%;
+}
