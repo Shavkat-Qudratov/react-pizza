@@ -1,26 +1,50 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Home from './pages/Home/Home';
-import './App.css';
-import Purchased from './pages/Purchased/Purchased';
-import NoPurchased from './pages/NoPurchased/NoPurchased';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
+import { Home, Orders, Auth, Login, AddNewPizza, Error, SinglePizza, Payment } from "./pages";
+import { LoginOrAuth } from './pages/LoginOrAuth/LoginOrAuth'
+import "./App.css";
 
-export const App = () => {
-  const router = createBrowserRouter([
-    {
-      path: '/',
-      element: <Home/>
-    },
-    {
-      path: '/purchased',
-      element: <Purchased/>
-    },
-    {
-      path: '/nopurchased',
-      element: <NoPurchased/>
-    }
-  ]);
-  return <RouterProvider router={router} fallbackElement={<h3>loading</h3>} />;
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/orders",
+    element: <Orders />,
+  },
+  {
+    path: "/auth",
+    element: <Auth />,
+  },
+  {
+    path: "/login",
+    element: <Login />,
+  },
+  {
+    path: "/loginorauth",
+    element: <LoginOrAuth />,
+  },
+  {
+    path: "/addnewpizza",
+    element: <AddNewPizza />,
+  },
+  {
+    path: "*",
+    element: <Error />,
+  },
+  {
+    path: "/pizza/:id",
+    element: <SinglePizza />,
+  },
+  {
+    path: "/payment",
+    element: <Payment />,
+  },
+]);
+
+function App() {
+  return <RouterProvider router={router} />;
 }
 
-
+export default App;

@@ -1,0 +1,14 @@
+.login-or-auth {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.SignBtn {
+  background-color: rgb(162, 162, 165);
+  cursor: pointer;
+  width: 100px;
+}

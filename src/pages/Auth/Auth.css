@@ -1,0 +1,126 @@
+body {
+  overflow-x: hidden;
+}
+
+.auth-page h1 {
+  width: 100%;
+  text-align: center;
+  padding: 0.625rem;
+}
+
+.auth-page a {
+  text-decoration: none;
+  color: #000;
+}
+
+.auth-page p {
+  cursor: pointer;
+  width: 100%;
+  position: absolute;
+  left: 25%;
+  font-size: 18px;
+}
+
+.auth-page-wrapper {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  width: 400px;
+  height: 600px;
+  border-radius: 0.9375rem;
+  text-transform: capitalize;
+  padding: 3rem;
+  position: relative;
+}
+
+.auth-page p:hover {
+  color: rgb(84, 84, 84);
+}
+
+.auth-page form button {
+  width: 18.75rem;
+  height: 3.125rem;
+  border-radius: 0.625rem;
+  border: none;
+  background-color: rgb(102, 186, 242);
+
+  margin: 8px 0;
+
+  color: #fff;
+  font-size: x-large;
+  cursor: pointer;
+  transition: 0.4s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-page form button:hover {
+  background-color: rgb(151, 165, 243);
+}
+
+.auth-page form button:active {
+  transform: scale(0.98);
+}
+
+.auth-page form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auth-page form input {
+  padding: 0.3125rem;
+  height: 2.5rem;
+  width: 100%;
+  margin: 1.25rem 0;
+  font-size: 1.0625rem;
+  outline-color: rgb(90, 72, 155);
+}
+
+.input-bg-cont {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.auth-page form div label {
+  margin-top: 0.25rem;
+  margin-right: 0.5625rem;
+}
+
+.auth-img {
+  width: 100%;
+}
+
+.google-icon {
+  font-size: 1.875rem;
+  margin-right: 0.3125rem;
+}
+
+
+.alert-wrapper {
+  position: absolute;
+
+  top: 3.75rem;
+  right: 6.25rem;
+
+  animation-name: animationAlert;
+  animation-duration: 1s;
+  z-index: 10;
+}
+
+
+.errorMessage {
+  color: Red;
+}
+
+.input-cont {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.input-bg-cont {
+  width: 100%;
+}
